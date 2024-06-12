@@ -1,7 +1,5 @@
 package com.algo.learning.algo;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class AlgoApplication {

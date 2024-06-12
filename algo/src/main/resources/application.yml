@@ -1,1 +1,14 @@
-spring.application.name=algo
+spring:
+  application:
+    name: algo
+  datasource:  # 配置mysql
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/chenxin?characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&serverTimezone=Asia/Shanghai&useSSL=false
+    username: root
+    password: root
+
+server:
+  port: 8080  # 默认端口
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
